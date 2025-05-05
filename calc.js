@@ -26,8 +26,6 @@ let secondNum;
 
 let mathOperator;
 
-
-
 //Operation logic//
 function operate(mathOperator,firstNum,secondNum) {
 let result;
@@ -46,3 +44,5 @@ if(mathOperator == '+') {
 
 return result;
 };
+
+//Logic for populating display//
