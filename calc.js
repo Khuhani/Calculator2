@@ -46,3 +46,11 @@ return result;
 };
 
 //Logic for populating display//
+let content = document.querySelector(".operand");
+let buttons = document.querySelectorAll("#buttons");
+
+function populateDisplay() {buttons.forEach(btn => btn.addEventListener('click', e=>{
+    let buttonContent = e.target.innerText;
+    content.textContent = buttonContent;
+}))};
+populateDisplay();
