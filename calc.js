@@ -2,7 +2,7 @@
 
 //Logic for adding numbers//
 function toAdd(num1,num2) {
-    return parseInt(num1) + parseInt(num2);
+    return parseFloat(num1) + parseFloat(num2);
 };
 
 //Logic for subtracting numbers//
